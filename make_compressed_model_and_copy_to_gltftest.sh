@@ -1,6 +1,6 @@
 #!/bin/bash
 
-modelNames=(Box Duck 2CylinderEngine ReciprocatingSaw GearboxAssy Buggy CesiumMan RiggedSimple RiggedFigure Monster VC BrainStem)
+modelNames=(Box Duck 2CylinderEngine ReciprocatingSaw GearboxAssy Buggy CesiumMan RiggedSimple RiggedFigure Monster VC BrainStem SmilingFace WalkingLady)
 #modelNames=(RiggedSimple RiggedFigure BrainStem CesiumMan)
 #modelNames=(GearboxAssy)
 for modelName in ${modelNames[@]}; do
