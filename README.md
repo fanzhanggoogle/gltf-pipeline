@@ -1,3 +1,10 @@
+# Notes
+### This work compresses a glTF 2.0 asset according to the [KHR_draco_mesh_compression extension](https://github.com/KhronosGroup/glTF/pull/874). Currently it's only tested against mesh compression only. Working along with other optimization methods is temporarily disabled.
+
+## Example:
+
+node ./bin/gltf-pipeline.js -i ./specs/data/Duck/glTF/Duck.gltf -d --draco.quantizePosition=10 --draco.quantizeNormal=8 --draco.quantizeTexcoord=8 --draco.quantizeColor=6 --draco.quantizeSkin=12 -s -o Duck.gltf
+
 # glTF Pipeline
 
 [![License](https://img.shields.io/:license-apache-blue.svg)](https://github.com/AnalyticalGraphicsInc/gltf-pipeline/blob/master/LICENSE.md)
