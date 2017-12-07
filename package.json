@@ -34,6 +34,7 @@
     "data-uri-to-buffer": "^0.0.4",
     "deep-equal": "^1.0.1",
     "draco3d": "^1.1.0",
+    "draco-animation": "^1.0.0",
     "fs-extra": "^1.0.0",
     "image-size": "^0.5.0",
     "jimp": "^0.2.27",
